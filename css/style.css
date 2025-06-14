@@ -2,3 +2,74 @@ main,
 footer {
   display: flex;
 }
+
+.logo {
+  max-width: 100%;
+  background-color: rgb(18, 29, 81)
+}
+
+.logo img {
+  margin: 0 auto;
+  position: relative;
+  display: block
+}
+
+.sidebar {
+  max-width: 100%;
+  background-color: yellow;
+}
+
+.content {
+  max-width: 100%;
+  background-color: cyan;
+}
+
+section.content>img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+
+body>div>main>section.content>p:nth-child(4) {
+  background-color: black;
+  color: white;
+}
+
+body>div>main>section.content>p:nth-child(7) {
+  background-color: green;
+  color: white;
+}
+
+body>div>main>section.content>ul:nth-child(8)>li:nth-child(even) {
+  color: red;
+
+}
+
+body>div>main>section.content>ul>li>a {
+  color: red;
+}
+
+
+/*footer*/
+
+footer {
+  position: relative;
+}
+
+body>div>footer>div:nth-child(1)>p {
+  margin-top: 0px;
+  background-color: pink;
+}
+
+body>div>footer>div:nth-child(2)>p {
+  margin-top: 0px;
+  background-color: rgb(146, 26, 32);
+  color: white;
+}
+
+
+body>div>footer>div:nth-child(3)>p {
+  margin-top: 0px;
+  background-color: rgb(109, 109, 109)
+}
